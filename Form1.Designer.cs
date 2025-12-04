@@ -53,6 +53,7 @@
             this.label1.Size = new System.Drawing.Size(322, 72);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hello there";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
@@ -62,6 +63,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
